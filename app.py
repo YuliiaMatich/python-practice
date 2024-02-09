@@ -33,3 +33,12 @@ elif temperature > 20:
 else:
   print("It's cold")
 
+weight = int(input("Weight: "))
+measure = input("(K)g or (L)bs: ").upper()
+if measure == "K":
+  print("Weight in Lbs: ", str(round((weight / 0.45), 2)))
+elif measure == "L":
+  print("Weight in Kg: ", str(round((weight * 0.45), 2)))
+else:
+  print("Wrong measure")
+
