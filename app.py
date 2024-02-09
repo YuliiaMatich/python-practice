@@ -15,3 +15,21 @@ course = "Python for beginners"
 print(course.find("on"))
 print(course.replace("Py", "My"))
 print("for" in course)
+
+# math
+# // returns integer, / returns floating
+print(10 // 3)
+price = 25
+print(price > 10 and price < 25)
+print(price > 10 or price < 30)
+print(not price > 10)
+
+# if
+temperature = 35
+if temperature > 30:
+  print("It's a hot day")
+elif temperature > 20:
+  print("It's a nice day")
+else:
+  print("It's cold")
+
