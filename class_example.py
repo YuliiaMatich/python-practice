@@ -22,6 +22,10 @@ class Course:
   def get_average_grade(self):
     pass
 
+  def get_students_list(self):
+    for item in self.students:
+      print(item.name)
+
 s1 = Student("Vasil", 17, 50)
 s2 = Student("Tamara", 64, 4)
 s3 = Student("Nerd", 12, 100)
@@ -30,3 +34,5 @@ course = Course("Tarot_advanced", 2)
 course.add_student(s1)
 course.add_student(s2)
 course.add_student(s3)
+
+print(course.get_students_list())
