@@ -16,10 +16,13 @@ class Dog:
   def set_age(self, age):
     self.age = age
 
+  def get_age(self):
+    return self.age
+  
 d = Dog("Tim", 12) ## creating the instanse of class
 d.set_age(23)
 d.bark()
 print(type(d))
 print(d.add_one(5))
 print(d.get_name())
-print(d.age)
+print(d.get_age())
